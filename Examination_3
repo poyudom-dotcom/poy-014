@@ -8,3 +8,9 @@
 score = int(input())
 
 # เขียนโค้ดต่อจากนี้
+score = int(input())
+
+if score >= 50:
+    print("Pass")
+else:
+    print("Fail")
