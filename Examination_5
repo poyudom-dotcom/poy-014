@@ -7,5 +7,12 @@
 quantity = int(input())
 
 # เขียนโค้ดต่อจากนี้
+quantity = int(input())
 
+total = quantity * 20
+
+if quantity >= 5:
+    total = total - 10
+
+print(total)
 
