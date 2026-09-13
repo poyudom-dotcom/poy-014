@@ -9,3 +9,7 @@ price = float(input())
 discount = float(input())
 
 # เขียนโค้ดต่อจากนี้
+discount_amount = price * discount / 100
+final_price = price - discount_amount
+
+print(final_price)
